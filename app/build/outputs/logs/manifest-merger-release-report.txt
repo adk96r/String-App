@@ -1,0 +1,221 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:2:1-49:12
+MERGED from [com.android.support:design:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\c19ef7eb9671efabe71d9eb1580ca17a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\49131b45cc5de194abd66f2154adeff7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\3fff9f4670d1dbef527d14c69a284a01\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-dynamic-animation:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\support-dynamic-animation-27.0.2.aar\b63432ca92a56f31d4e8c54906d0bd88\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-vision:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.8.0.aar\bef89300ae9e7fd4e4eb5c13012ab174\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.8.0.aar\aeea2af8917d36ff6577876a1ee1d4f6\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\f04f5b79f7febff9929b15219a228283\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\2adc25d6e0a22991606d73281c143d6d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\47d4323b47ac2c74f92e6b7cd17d7b87\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\6537de98f2770aac058f258d5e28a58c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\d4837f25b0f30627a3aaa47f66a36ba2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\b8a22bde0cf1d909677941c197bb3c74\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\e274e5180df7380c88f4d00299ed1138\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\bf8d29888ddf94a0a98cdd79a7a6ee10\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\d97908fc7274950c9f53932768b6513b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\7fbc35d9b8d31b38518e22a265a04f75\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\a6d0fd324e6e8b684cb035b12a2f5225\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\07f94d0f5d8d850d641aa09e3ead036e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\fedc13a5da30e711f7f37bac4a64e4d5\AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\f456ede305546d23b823ea528e112199\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-vision-license:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.8.0.aar\41b8d89afba2b073245623fab5180116\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ef2bc045fab7423c96264d1eb9249d9c\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\02cd4a846b05dca53b9a4990b6675382\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.8.0.aar\8e7de4c018926c1f6338e7fe0cf0d61e\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\1bdaca8ea3110c104d7c766ff7312582\AndroidManifest.xml:2:1-6:12
+INJECTED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:2:1-49:12
+	package
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:3:5-25
+		INJECTED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:2:1-49:12
+		INJECTED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:2:1-49:12
+		INJECTED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:5:22-62
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:6:22-64
+application
+ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:8:5-47:19
+MERGED from [com.google.android.gms:play-services-vision:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.8.0.aar\bef89300ae9e7fd4e4eb5c13012ab174\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.8.0.aar\bef89300ae9e7fd4e4eb5c13012ab174\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.8.0.aar\aeea2af8917d36ff6577876a1ee1d4f6\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.8.0.aar\aeea2af8917d36ff6577876a1ee1d4f6\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\f04f5b79f7febff9929b15219a228283\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\f04f5b79f7febff9929b15219a228283\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\2adc25d6e0a22991606d73281c143d6d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\2adc25d6e0a22991606d73281c143d6d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\47d4323b47ac2c74f92e6b7cd17d7b87\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\47d4323b47ac2c74f92e6b7cd17d7b87\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\fedc13a5da30e711f7f37bac4a64e4d5\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\fedc13a5da30e711f7f37bac4a64e4d5\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-vision-license:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.8.0.aar\41b8d89afba2b073245623fab5180116\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision-license:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.8.0.aar\41b8d89afba2b073245623fab5180116\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ef2bc045fab7423c96264d1eb9249d9c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ef2bc045fab7423c96264d1eb9249d9c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\02cd4a846b05dca53b9a4990b6675382\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\02cd4a846b05dca53b9a4990b6675382\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.8.0.aar\8e7de4c018926c1f6338e7fe0cf0d61e\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.8.0.aar\8e7de4c018926c1f6338e7fe0cf0d61e\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\1bdaca8ea3110c104d7c766ff7312582\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\1bdaca8ea3110c104d7c766ff7312582\AndroidManifest.xml:5:5-20
+	android:supportsRtl
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:11:9-41
+	android:icon
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:10:9-36
+	android:allowBackup
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:13:9-40
+activity#adk.string.MainActivity
+ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:15:9-24:20
+	android:screenOrientation
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:17:13-53
+	android:theme
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:18:13-51
+	android:name
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:16:13-41
+intent-filter#android.intent.action.MAIN+android.intent.action.VIEW+android.intent.category.LAUNCHER
+ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:21:27-74
+action#android.intent.action.VIEW
+ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:22:25-66
+meta-data#preloaded_fonts
+ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:26:9-28:57
+	android:resource
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:28:13-54
+	android:name
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:27:13-43
+activity#adk.string.SettingsActivity
+ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:30:9-33:47
+	android:screenOrientation
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:32:13-53
+	android:theme
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:33:13-44
+	android:name
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:31:13-45
+activity#adk.string.HistoryActivity
+ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:35:9-38:47
+	android:screenOrientation
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:37:13-53
+	android:theme
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:38:13-44
+	android:name
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:36:13-44
+activity#adk.string.Onboarding
+ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:40:9-45:20
+	android:theme
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:42:13-44
+	android:name
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml:41:13-39
+uses-sdk
+INJECTED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\c19ef7eb9671efabe71d9eb1580ca17a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\c19ef7eb9671efabe71d9eb1580ca17a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\49131b45cc5de194abd66f2154adeff7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\49131b45cc5de194abd66f2154adeff7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\3fff9f4670d1dbef527d14c69a284a01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\3fff9f4670d1dbef527d14c69a284a01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-dynamic-animation:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\support-dynamic-animation-27.0.2.aar\b63432ca92a56f31d4e8c54906d0bd88\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-dynamic-animation:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\support-dynamic-animation-27.0.2.aar\b63432ca92a56f31d4e8c54906d0bd88\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.8.0.aar\bef89300ae9e7fd4e4eb5c13012ab174\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.8.0.aar\bef89300ae9e7fd4e4eb5c13012ab174\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.8.0.aar\aeea2af8917d36ff6577876a1ee1d4f6\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.8.0.aar\aeea2af8917d36ff6577876a1ee1d4f6\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\f04f5b79f7febff9929b15219a228283\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\f04f5b79f7febff9929b15219a228283\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\2adc25d6e0a22991606d73281c143d6d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\2adc25d6e0a22991606d73281c143d6d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\47d4323b47ac2c74f92e6b7cd17d7b87\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\47d4323b47ac2c74f92e6b7cd17d7b87\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\6537de98f2770aac058f258d5e28a58c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\6537de98f2770aac058f258d5e28a58c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\d4837f25b0f30627a3aaa47f66a36ba2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\d4837f25b0f30627a3aaa47f66a36ba2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\b8a22bde0cf1d909677941c197bb3c74\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\b8a22bde0cf1d909677941c197bb3c74\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\e274e5180df7380c88f4d00299ed1138\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\e274e5180df7380c88f4d00299ed1138\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\bf8d29888ddf94a0a98cdd79a7a6ee10\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\bf8d29888ddf94a0a98cdd79a7a6ee10\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\d97908fc7274950c9f53932768b6513b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\d97908fc7274950c9f53932768b6513b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\7fbc35d9b8d31b38518e22a265a04f75\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\7fbc35d9b8d31b38518e22a265a04f75\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\a6d0fd324e6e8b684cb035b12a2f5225\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\a6d0fd324e6e8b684cb035b12a2f5225\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\07f94d0f5d8d850d641aa09e3ead036e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\07f94d0f5d8d850d641aa09e3ead036e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\fedc13a5da30e711f7f37bac4a64e4d5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\fedc13a5da30e711f7f37bac4a64e4d5\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\f456ede305546d23b823ea528e112199\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\f456ede305546d23b823ea528e112199\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-vision-license:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.8.0.aar\41b8d89afba2b073245623fab5180116\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision-license:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.8.0.aar\41b8d89afba2b073245623fab5180116\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ef2bc045fab7423c96264d1eb9249d9c\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ef2bc045fab7423c96264d1eb9249d9c\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\02cd4a846b05dca53b9a4990b6675382\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\02cd4a846b05dca53b9a4990b6675382\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.8.0.aar\8e7de4c018926c1f6338e7fe0cf0d61e\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.8.0.aar\8e7de4c018926c1f6338e7fe0cf0d61e\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\1bdaca8ea3110c104d7c766ff7312582\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\1bdaca8ea3110c104d7c766ff7312582\AndroidManifest.xml:4:5-43
+INJECTED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ksha2\Desktop\String 2\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\f04f5b79f7febff9929b15219a228283\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\f04f5b79f7febff9929b15219a228283\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\f04f5b79f7febff9929b15219a228283\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\f04f5b79f7febff9929b15219a228283\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\47d4323b47ac2c74f92e6b7cd17d7b87\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\47d4323b47ac2c74f92e6b7cd17d7b87\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\47d4323b47ac2c74f92e6b7cd17d7b87\AndroidManifest.xml:24:13-58

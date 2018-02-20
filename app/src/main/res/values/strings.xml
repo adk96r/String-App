@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">String</string>
+    <string name="hint_means">Means</string>
+    <string name="hint_examples">Example</string>
+    <string name="hint_means_content">Material consisting of threads of cotton, hemp, or other material twisted together to form a thin length</string>
+    <string name="hint_example_content">The elephant mask had a trunk you could raise by pulling a string.</string>
+    <string name="history">History</string>
+    <string name="settings">Settings</string>
+    <string name="word">Word</string>
+    <string name="pronunciation">/wəːd/</string>
+    <string name="open_in_chrome">Open in chrome</string>
+    <string name="swipe_diagonally_across_a_word">Or Swipe Diagonally Across a Word</string>
+    <string name="noun">Noun</string>
+    <string name="verb">Verb</string>
+    <string name="adj">Adjective</string>
+    <string name="example">Example</string>
+    <string name="status_400">Couldn\'t get the meaning! Google it below.</string>
+    <string name="status_600">Searching...</string>
+    <string name="title_activity_set">SetActivity</string>
+    <string name="Noun">Noun</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

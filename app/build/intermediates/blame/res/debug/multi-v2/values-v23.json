@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\ksha2\\Desktop\\String 2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ksha2\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\762b63769a4b3c2018d9b475d549f319\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,27,40,41,42,43,44",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "511,646,781,856,943,1587,2243,2370,2475,2590,2697",
+                        "endLines": "10,11,12,13,26,39,40,41,42,43,44",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "641,776,851,938,1582,2238,2365,2470,2585,2692,2805"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ksha2\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-27.0.2.aar\\07f94d0f5d8d850d641aa09e3ead036e\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "45",
+                        "startColumns": "4",
+                        "startOffsets": "2810",
+                        "endLines": "47",
+                        "endColumns": "12",
+                        "endOffsets": "2955"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ksha2\\Desktop\\String 2\\app\\src\\main\\res\\values-v23\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "507"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "506"
+                    }
+                }
+            ]
+        }
+    ]
+}

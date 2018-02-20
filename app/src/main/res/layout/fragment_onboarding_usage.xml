@@ -1,0 +1,464 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="-56dp"
+    android:background="@color/white"
+    android:clipChildren="true"
+    tools:context="adk.string.OnboardingUsageFragment">
+
+    <SurfaceView
+        android:id="@+id/demo_camera_surface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <View
+        android:id="@+id/onboarding_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="1"
+        android:background="@color/white" />
+
+    <View
+        android:layout_width="128dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/white_gradient_left" />
+
+    <View
+        android:layout_width="128dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/white_gradient_right" />
+
+    <RelativeLayout
+        android:id="@+id/instr_wrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_card_onboarding"
+        android:layout_below="@id/top_card_onboarding"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp">
+
+        <!-- Instr 1 -->
+        <TextView
+            android:id="@+id/instr1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:alpha="0"
+            android:fontFamily="sans-serif-light"
+            android:lineSpacingExtra="8dp"
+            android:text="When you want to find the meaning of any word just open the app and point your phone towards the word."
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp"
+            android:translationY="16dp" />
+
+        <!-- Instr 2 -->
+        <TextView
+            android:id="@+id/instr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:alpha="0"
+            android:fontFamily="sans-serif-light"
+            android:lineSpacingExtra="8dp"
+            android:text="Once the camera starts, touch and swipe across the desired word, drawing a box around the word."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:translationY="16dp" />
+
+        <!-- Instr 3 -->
+        <TextView
+            android:id="@+id/instr3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:alpha="0"
+            android:fontFamily="sans-serif-light"
+            android:lineSpacingExtra="8dp"
+            android:text="After drawing the box, all the words inside it will be shown in the card at the top and you can select the word you like from the list."
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp"
+            android:translationY="-16dp" />
+
+        <!-- Instr 4 -->
+        <TextView
+            android:id="@+id/instr4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:alpha="0"
+            android:fontFamily="sans-serif-light"
+            android:lineSpacingExtra="8dp"
+            android:text="Once you select a word, its meaning along with an example will be shown in a card at the bottom."
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp"
+            android:translationY="8dp" />
+
+        <!-- Instr 4 -->
+        <TextView
+            android:id="@+id/instr5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:alpha="0"
+            android:fontFamily="sans-serif-light"
+            android:lineSpacingExtra="8dp"
+            android:text="Yayy! The tutorial's over. Hope you enjoy using the app and build you vocabulary."
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp"
+            android:translationY="8dp" />
+
+    </RelativeLayout>
+
+    <adk.string.StringOverlayBoxView
+        android:id="@+id/box"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:alpha="0"
+        android:padding="32dp" />
+
+    <RelativeLayout
+        android:id="@+id/top_card_onboarding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="56dp"
+        android:alpha="0"
+        android:translationY="-50dp">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/top_nested_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="56dp"
+                    android:layout_height="64dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/button_background_color"
+                    android:padding="16dp"
+                    android:saveEnabled="false"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/freeze_btn_dynamic" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_toEndOf="@id/pause_preview_btn"
+                    android:background="@color/subtle_line" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toEndOf="@id/pause_preview_btn"
+                    android:layout_toStartOf="@id/manual_search_btn"
+                    android:background="@color/transparent_white"
+                    android:enabled="false"
+                    android:fontFamily="sans-serif-thin"
+                    android:hint="Search  /  Swipe"
+                    android:imeOptions="actionSearch"
+                    android:inputType="text"
+                    android:nextFocusLeft="@id/manual_search_edit_text"
+                    android:nextFocusUp="@id/manual_search_edit_text"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black_semi_transparent"
+                    android:textSize="24sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_toStartOf="@id/manual_search_btn"
+                    android:background="@color/subtle_line" />
+
+                <ImageButton
+                    android:layout_width="56dp"
+                    android:layout_height="64dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/button_background_color"
+                    android:padding="16dp"
+                    android:saveEnabled="false"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/search_button_dynamic" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="-16dp"
+            android:background="@drawable/white_gradient_top"
+            android:elevation="3dp" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@id/top_nested_card"
+            android:layout_marginBottom="48dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="32dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="4dp">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:background="@drawable/recognized_word_drawable"
+                    android:fontFamily="sans-serif-thick"
+                    android:paddingBottom="8dp"
+                    android:paddingEnd="16dp"
+                    android:paddingStart="16dp"
+                    android:paddingTop="6dp"
+                    android:text="WORDS"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:background="@drawable/recognized_word_drawable"
+                    android:fontFamily="sans-serif-thick"
+                    android:paddingBottom="8dp"
+                    android:paddingEnd="16dp"
+                    android:paddingStart="16dp"
+                    android:paddingTop="6dp"
+                    android:text="WILL"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:background="@drawable/recognized_word_drawable"
+                    android:fontFamily="sans-serif-thick"
+                    android:paddingBottom="8dp"
+                    android:paddingEnd="16dp"
+                    android:paddingStart="16dp"
+                    android:paddingTop="6dp"
+                    android:text="APPEAR"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:background="@drawable/recognized_word_drawable"
+                    android:fontFamily="sans-serif-thick"
+                    android:paddingBottom="8dp"
+                    android:paddingEnd="16dp"
+                    android:paddingStart="16dp"
+                    android:paddingTop="6dp"
+                    android:text="HERE"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/bottom_card_onboarding"
+        android:layout_width="match_parent"
+        android:layout_height="216dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:alpha="0"
+        android:elevation="2dp"
+        android:translationZ="6dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="6dp">
+
+
+        <android.support.design.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Word and its pronunciation. -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="sans-serif-thin"
+                        android:text="String"
+                        android:textColor="@color/subtle_text"
+                        android:textSize="56sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:fontFamily="sans-serif-thin"
+                        android:text="Powered by Wordnik"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="sans-serif-normal"
+                    android:text="/strɪŋ/"
+                    android:textColor="@color/defined_color"
+                    android:textSize="12sp" />
+
+                <View
+                    android:id="@+id/position_one_onboard"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/subtle_line" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="12dp"
+                    android:paddingEnd="16dp"
+                    android:paddingStart="16dp"
+                    android:paddingTop="12dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@color/white"
+                        android:fontFamily="sans-serif-normal"
+                        android:text="Status"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="12sp"
+                        android:textStyle="italic"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@color/white"
+                        android:fontFamily="sans-serif-normal"
+                        android:text="@string/Noun"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="4dp"
+                        android:fontFamily="sans-serif-normal"
+                        android:lineSpacingExtra="4dp"
+                        android:text="Material consisting of threads of cotton, hemp, or other material twisted together to form a thin length."
+                        android:textColor="@color/defined_color"
+                        android:textSize="16sp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:src="@mipmap/action_volume_up"
+                app:backgroundTint="@color/white"
+                app:fabSize="mini"
+                app:layout_anchor="@+id/position_one_onboard"
+                app:layout_anchorGravity="center|end" />
+
+        </android.support.design.widget.CoordinatorLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

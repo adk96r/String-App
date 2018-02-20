@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFF</color>
+    <color name="colorPrimaryDark">#FFF</color>
+    <color name="red">#FF5252</color>
+    <color name="colorAccent">#FF1744</color>
+    <color name="dark_violet">#4a148c</color>
+
+    <color name="transparent_white">#00ffffff</color>
+    <color name="semi_t_white">#55ffffff</color>
+    <color name="white">#FFFFFF</color>
+    <color name="subtle_line">#F2F2F2</color>
+    <color name="subtle_text">#777788</color>
+    <color name="defined_color">#555</color>
+    <color name="dark_gray">#424242</color>
+    <color name="black_semi_transparent">#50000000</color>
+    <color name="black">#000</color>
+    <color name="black_transparent">#00000000</color>
+</resources>

@@ -1,0 +1,160 @@
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\src\main\res\layout\activity_main.xml:189
+-keep class adk.string.FluidicElement { <init>(...); }
+
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\build\intermediates\manifests\full\release\AndroidManifest.xml:41
+-keep class adk.string.HistoryActivity { <init>(...); }
+
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\build\intermediates\manifests\full\release\AndroidManifest.xml:20
+-keep class adk.string.MainActivity { <init>(...); }
+
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\build\intermediates\manifests\full\release\AndroidManifest.xml:45
+-keep class adk.string.Onboarding { <init>(...); }
+
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\build\intermediates\manifests\full\release\AndroidManifest.xml:37
+-keep class adk.string.SettingsActivity { <init>(...); }
+
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\src\main\res\layout\activity_main.xml:18
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\src\main\res\layout\fragment_onboarding_usage.xml:122
+-keep class adk.string.StringOverlayBoxView { <init>(...); }
+
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\src\main\res\layout\activity_main.xml:197
+-keep class adk.string.UiScrollView { <init>(...); }
+
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\src\main\res\layout\history_word_recyler_item.xml:20
+-keep class android.support.constraint.ConstraintLayout { <init>(...); }
+
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\c19ef7eb9671efabe71d9eb1580ca17a\res\layout\design_bottom_navigation_item.xml:26
+-keep class android.support.design.internal.BaselineLayout { <init>(...); }
+
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\c19ef7eb9671efabe71d9eb1580ca17a\res\layout\design_navigation_item.xml:17
+-keep class android.support.design.internal.NavigationMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\c19ef7eb9671efabe71d9eb1580ca17a\res\layout\design_navigation_menu.xml:17
+-keep class android.support.design.internal.NavigationMenuView { <init>(...); }
+
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\c19ef7eb9671efabe71d9eb1580ca17a\res\layout\design_layout_snackbar_include.xml:18
+-keep class android.support.design.internal.SnackbarContentLayout { <init>(...); }
+
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\c19ef7eb9671efabe71d9eb1580ca17a\res\layout\design_text_input_password_icon.xml:18
+-keep class android.support.design.widget.CheckableImageButton { <init>(...); }
+
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\c19ef7eb9671efabe71d9eb1580ca17a\res\layout\design_bottom_sheet_dialog.xml:26
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\src\main\res\layout\activity_main.xml:222
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\src\main\res\layout\fragment_onboarding_usage.xml:334
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\src\main\res\layout\history_word_recyler_item.xml:3
+-keep class android.support.design.widget.CoordinatorLayout { <init>(...); }
+
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\src\main\res\layout\activity_main.xml:436
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\src\main\res\layout\fragment_onboarding_usage.xml:447
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\src\main\res\layout\history_word_recyler_item.xml:189
+-keep class android.support.design.widget.FloatingActionButton { <init>(...); }
+
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\c19ef7eb9671efabe71d9eb1580ca17a\res\layout-sw600dp-v13\design_layout_snackbar.xml:18
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\c19ef7eb9671efabe71d9eb1580ca17a\res\layout\design_layout_snackbar.xml:18
+-keep class android.support.design.widget.Snackbar$SnackbarLayout { <init>(...); }
+
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\src\main\res\layout\activity_onboarding.xml:7
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout\abc_alert_dialog_material.xml:41
+-keep class android.support.v4.widget.NestedScrollView { <init>(...); }
+
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout\abc_alert_dialog_button_bar_material.xml:43
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout\abc_alert_dialog_material.xml:52
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout\abc_alert_dialog_material.xml:66
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout\abc_alert_dialog_title_material.xml:56
+-keep class android.support.v4.widget.Space { <init>(...); }
+
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout\abc_select_dialog_material.xml:23
+-keep class android.support.v7.app.AlertController$RecycleListView { <init>(...); }
+
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout\abc_action_menu_item_layout.xml:17
+-keep class android.support.v7.view.menu.ActionMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout\abc_expanded_menu_layout.xml:17
+-keep class android.support.v7.view.menu.ExpandedMenuView { <init>(...); }
+
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout\abc_list_menu_item_layout.xml:17
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout\abc_popup_menu_item_layout.xml:17
+-keep class android.support.v7.view.menu.ListMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout-v26\abc_screen_toolbar.xml:27
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout\abc_screen_toolbar.xml:27
+-keep class android.support.v7.widget.ActionBarContainer { <init>(...); }
+
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout-v26\abc_screen_toolbar.xml:44
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout\abc_action_mode_bar.xml:19
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout\abc_screen_toolbar.xml:43
+-keep class android.support.v7.widget.ActionBarContextView { <init>(...); }
+
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout-v26\abc_screen_toolbar.xml:17
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout\abc_screen_toolbar.xml:17
+-keep class android.support.v7.widget.ActionBarOverlayLayout { <init>(...); }
+
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout\abc_action_menu_layout.xml:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(...); }
+
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout\abc_activity_chooser_view.xml:19
+-keep class android.support.v7.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout\abc_alert_dialog_material.xml:18
+-keep class android.support.v7.widget.AlertDialogLayout { <init>(...); }
+
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout\abc_alert_dialog_button_bar_material.xml:26
+-keep class android.support.v7.widget.ButtonBarLayout { <init>(...); }
+
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\src\main\res\layout\activity_main.xml:47
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\src\main\res\layout\activity_main.xml:110
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\src\main\res\layout\activity_main.xml:210
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\src\main\res\layout\activity_main.xml:453
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\src\main\res\layout\fragment_onboarding_usage.xml:140
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\src\main\res\layout\fragment_onboarding_usage.xml:225
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\src\main\res\layout\fragment_onboarding_usage.xml:318
+-keep class android.support.v7.widget.CardView { <init>(...); }
+
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout\abc_screen_content_include.xml:19
+-keep class android.support.v7.widget.ContentFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout\abc_alert_dialog_title_material.xml:45
+-keep class android.support.v7.widget.DialogTitle { <init>(...); }
+
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout\abc_screen_simple_overlay_action_mode.xml:23
+-keep class android.support.v7.widget.FitWindowsFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout\abc_dialog_title_material.xml:22
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout\abc_screen_simple.xml:17
+-keep class android.support.v7.widget.FitWindowsLinearLayout { <init>(...); }
+
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\src\main\res\layout\activity_history.xml:19
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\src\main\res\layout\activity_main.xml:78
+-keep class android.support.v7.widget.RecyclerView { <init>(...); }
+
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout\abc_search_view.xml:75
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout-v26\abc_screen_toolbar.xml:37
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout\abc_screen_toolbar.xml:36
+-keep class android.support.v7.widget.Toolbar { <init>(...); }
+
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout\abc_screen_simple.xml:25
+# Referenced at C:\Users\ksha2\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\762b63769a4b3c2018d9b475d549f319\res\layout\abc_screen_simple_overlay_action_mode.xml:32
+-keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\build\intermediates\manifests\full\release\AndroidManifest.xml:49
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(...); }
+
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\src\main\res\layout\activity_main.xml:171
+-keepclassmembers class * { *** manualSearch(...); }
+
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\src\main\res\layout\activity_main.xml:421
+-keepclassmembers class * { *** openInChrome(...); }
+
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\src\main\res\layout\activity_main.xml:492
+-keepclassmembers class * { *** openSettings(...); }
+
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\src\main\res\layout\activity_main.xml:125
+-keepclassmembers class * { *** pausePreview(...); }
+
+# Referenced at C:\Users\ksha2\Desktop\String 2\app\src\main\res\layout\activity_main.xml:472
+-keepclassmembers class * { *** showHistory(...); }
+

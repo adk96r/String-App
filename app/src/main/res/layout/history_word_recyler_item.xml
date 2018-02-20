@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/top_separator"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/subtle_line" />
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/primary_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:paddingTop="16dp">
+
+            <TextView
+                android:id="@+id/history_word"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="sans-serif-normal"
+                android:paddingBottom="4dp"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="0dp"
+                android:text="Word"
+                android:textColor="@color/dark_gray"
+                android:textSize="32sp"
+                android:textStyle="normal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/history_hint_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/white"
+                android:fontFamily="sans-serif-normal"
+                android:text="@string/Noun"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/history_word" />
+
+            <TextView
+                android:id="@+id/history_meaning_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="0dp"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="4dp"
+                android:text="Meaning"
+                android:textColor="@color/subtle_text"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/history_hint_1" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <LinearLayout
+            android:id="@+id/secondary_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"
+            android:visibility="visible"
+            app:layout_constraintTop_toBottomOf="@id/primary_view">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="6dp"
+                android:background="@color/subtle_line" />
+
+            <TextView
+                android:id="@+id/history_hint_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/white"
+                android:fontFamily="sans-serif-normal"
+                android:text="@string/verb"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/history_meaning_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="4dp"
+                android:text="Meaning"
+                android:textColor="@color/subtle_text" />
+
+            <TextView
+                android:id="@+id/history_hint_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/white"
+                android:fontFamily="sans-serif-normal"
+                android:text="@string/adj"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/history_meaning_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="4dp"
+                android:text="Meaning"
+                android:textColor="@color/subtle_text" />
+
+            <TextView
+                android:id="@+id/history_hint_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/white"
+                android:fontFamily="sans-serif-normal"
+                android:text="@string/example"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/history_meaning_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="4dp"
+                android:text="Meaning"
+                android:textColor="@color/subtle_text" />
+
+            <Button
+                android:id="@+id/history_open_in_chrome"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/button_background_color_inverted"
+                android:text="@string/open_in_chrome"
+                android:textColor="@color/button_text_color_inverted" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/bottom_separator"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/subtle_line" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/subtle_line" />
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/history_tts_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:scaleX="0"
+        android:scaleY="0"
+        android:src="@mipmap/action_volume_up"
+        android:visibility="visible"
+        app:backgroundTint="@color/white"
+        app:fabSize="mini"
+        app:layout_anchor="@id/primary_view"
+        app:layout_anchorGravity="bottom|end" />
+
+</android.support.design.widget.CoordinatorLayout>

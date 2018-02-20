@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="adk.string.SettingsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar" />
+
+        <Switch
+            android:id="@+id/save_history_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:fontFamily="sans-serif-normal"
+            android:padding="16dp"
+            android:text="Save words to history"
+            android:textColor="@color/subtle_text"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/subtle_line" />
+
+        <TextView
+            android:id="@+id/clear_history_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background_color"
+            android:fontFamily="sans-serif-normal"
+            android:padding="16dp"
+            android:text="Clear History"
+            android:textColor="@color/clear_history_text_color"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/subtle_line" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/images"
+        android:fontFamily="sans-serif-light"
+        android:padding="8dp"
+        android:text="App powered by"
+        android:textAlignment="center"
+        android:textColor="@color/subtle_text"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:id="@+id/images"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/fluidic_logo_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:fontFamily="sans-serif-thin"
+            android:text="fluidic"
+            android:textAlignment="center"
+            android:textColor="@color/dark_violet"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/wordnik_logo_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:layout_weight="2"
+            android:background="@color/transparent_white"
+            android:contentDescription="Wordnik API"
+            android:padding="8dp"
+            android:src="@drawable/ic_wordnik_logo" />
+
+        <ImageButton
+            android:id="@+id/google_logo_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|start"
+            android:layout_weight="1"
+            android:background="@color/transparent_white"
+            android:contentDescription="Google Material Icons"
+            android:padding="8dp"
+            android:src="@drawable/ic_icons_light" />
+
+    </LinearLayout>
+
+</RelativeLayout>
